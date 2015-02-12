@@ -100,6 +100,9 @@
                                         <state key="normal" title="Action">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="actionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1ld-DN-mmA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.058626642710000003" blue="0.076642990159999994" alpha="1" colorSpace="calibratedRGB"/>
@@ -119,6 +122,9 @@
                                         <state key="normal" title="N">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="northButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mla-Ap-GIh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPM-h3-wot">
                                         <rect key="frame" x="261" y="188" width="30" height="30"/>
@@ -126,6 +132,9 @@
                                         <state key="normal" title="S">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="southButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mzU-fI-ivT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa6-Ni-fhF">
                                         <rect key="frame" x="403" y="105" width="30" height="30"/>
@@ -133,6 +142,9 @@
                                         <state key="normal" title="E">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="eastButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cdl-um-JIj"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story Contents" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tli-UL-koX">
                                         <rect key="frame" x="184" y="70" width="200" height="100"/>
@@ -146,6 +158,9 @@
                                         <state key="normal" title="W">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="westButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YWC-wd-95b"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -153,6 +168,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="armorLabel" destination="M5m-w1-81t" id="BDT-Z9-Y1L"/>
+                        <outlet property="backgroundImageView" destination="28o-8f-N7C" id="QuH-uQ-tCy"/>
+                        <outlet property="damageLabel" destination="dYt-1O-Gqe" id="7gX-pU-McN"/>
+                        <outlet property="eastButton" destination="fa6-Ni-fhF" id="foT-WS-v8Y"/>
+                        <outlet property="healthLabel" destination="E9f-6H-IWs" id="KBz-9Q-foB"/>
+                        <outlet property="northButton" destination="5qE-Rb-3HO" id="e0U-5Y-fHn"/>
+                        <outlet property="southButton" destination="JPM-h3-wot" id="lec-0v-UKw"/>
+                        <outlet property="storyLabel" destination="tli-UL-koX" id="zTA-dw-XKH"/>
+                        <outlet property="weaponLabel" destination="pBS-XN-LEM" id="dD9-ah-RBe"/>
+                        <outlet property="westButton" destination="k7U-nY-FNr" id="VRh-Ke-7Mn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
